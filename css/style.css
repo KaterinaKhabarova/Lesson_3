@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+
+.historyofthebreed {
+   color: navy;
+}
+
+p.appearance {
+   color: mediumslateblue;
+}
+span.appearance,
+ul.appearance {
+   color: steelblue;
+}
+
+h1,
+h2,
+h3,
+h4 {
+   color: red;
+}
+.feeding .feeding_times {
+   color: seagreen;
+}
+ul.feeding {
+   color: yellowgreen;
+}
+.character .character-p {
+   color: rgb(105, 105, 10);
+}
+nav span {
+   color: tomato;
+}
+nav a {
+   color: rgb(206, 12, 196);
+}
+nav a.first {
+   color: rgb(199, 149, 10);
+}
+a.second {
+   color: turquoise;
+}
+header .description {
+   color: purple;
+}
+.amount + * {
+   color: salmon;
+}
+span.amount {
+   color: rgb(8, 233, 106);
+}
+p.care {
+   color: turquoise;
+}
+.appearance-care + * {
+   color: goldenrod;
+}
+.appearance-care + * + * {
+   color: mediumslateblue;
+}
+
+.appearance-care + * + * + * {
+   color: firebrick;
+}
+footer {
+   color: fuchsia;
+}
